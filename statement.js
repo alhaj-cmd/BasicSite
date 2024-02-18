@@ -4,3 +4,7 @@ if (age > 20){
 }
 
 // document.write(age,'26')
+var count = 20;
+for(i=0; i>count; i=i++){
+  console.log('you are profetional persone', i)
+}
