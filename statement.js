@@ -4,7 +4,15 @@ if (age > 20){
 }
 
 // document.write(age,'26')
-var count = 20;
-for(i=30; i<=count; i++){
+var count = 40;
+for(i=30; i<count; i++){
   console.log('you are profetional persone', i)
 }
+
+function addTwoNumber(){
+  const number = 10;
+  const number1 =20;
+  const number2 = number+number1;
+  console.log(number2, 'number not working');
+}
+addTwoNumber()
